@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex items-center h-16 w-full">
           <div className="flex items-center justify-between w-full ">
             <div className={playfairDisplay.className}>
-              <p className="font-bold text-xl">Gilang Pramudya</p>
+              <p className="font-bold text-xl text-cyan-100">Gilang Pramudya</p>
             </div>
             <div className="hidden md:block">
               <div className="flex items-baseline space-x-4">
