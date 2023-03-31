@@ -36,9 +36,9 @@ export default function Home() {
             <p className="text-justify leading-7">
               Hi, my name is <Highlight>Gilang Pramudya</Highlight>. Im an
               Informatics Student based in Bandung, Indonesia. My primary
-              passion lies in developing (and occasionally designing){" "}
+              passion lies in developing (and occasionally designing)
               <Highlight>web services</Highlight>, and I take great pride in
-              crafting high-quality digital solutions that cater to my client's
+              crafting high-quality digital solutions that cater to my clients
               unique requirements.
             </p>
           </div>
@@ -46,7 +46,7 @@ export default function Home() {
           <div className=" py-2 px-2 mt-2 mx-4">
             <p className=" mb-2">
               {" "}
-              Here are a few technologies i've used recently :
+              Here are a few technologies i{"'"}ve used recently :
             </p>
             <TechList />
           </div>
