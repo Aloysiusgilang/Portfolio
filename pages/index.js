@@ -21,13 +21,13 @@ export default function Home() {
           </div>
 
           <div>
-            <div className="relative mt-8 mx-4 h-48 w-48 rounded-full overflow-hidden">
+            <div className="relative mt-8 mx-4 h-48 w-48 overflow-hidden">
               <Image
                 src="/PP.jpeg"
                 alt="Picture of the author"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="center"
+                width={500}
+                height={500}
+                className="rounded-full"
               />
             </div>
           </div>
