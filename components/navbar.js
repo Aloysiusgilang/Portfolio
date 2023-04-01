@@ -1,4 +1,5 @@
 import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
 import React, { useState } from "react";
 import { inter, openSans, playfairDisplay } from "@/components/fonts";
 
@@ -14,33 +15,33 @@ const Navbar = () => {
         <div className="flex items-center h-16 w-full">
           <div className="flex items-center justify-between w-full ">
             <div className={playfairDisplay.className}>
-              <a href="/" className="flex-shrink-0 inline-block relative">
+              <Link href="/" className="flex-shrink-0 inline-block relative">
                 <p className="font-bold text-xl text-cyan-100 transition duration-300 transform hover:-translate-y-1">
                   Gilang Pramudya
                 </p>
-              </a>
+              </Link>
             </div>
             <div className="hidden md:block">
               <div className="flex items-baseline space-x-4">
-                <a
+                <Link
                   href="https://github.com/Aloysiusgilang"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   <FaGithub className="inline-block mr-2" />
                   Github
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Works
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/uses"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Uses
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -91,25 +92,25 @@ const Navbar = () => {
       {isMobile && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a
+            <Link
               href="https://github.com/Aloysiusgilang"
               className="text-gray-300 hover:bg-gray-700 flex items-center hover:text-white  px-3 py-2 rounded-md text-base font-medium"
             >
               <FaGithub className="inline-block mr-2" />
               Github
-            </a>
-            <a
+            </Link>
+            <Link
               href="/works"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Works
-            </a>
-            <a
+            </Link>
+            <Link
               href="/uses"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Uses
-            </a>
+            </Link>
           </div>
         </div>
       )}

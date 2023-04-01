@@ -37,6 +37,7 @@ export default function Uses() {
         <Image
           className="w-full h-auto max-h-80 object-cover"
           src="/bg-uses.jpg"
+          alt="background"
           width={2000}
           height={2000}
           position="fixed"
