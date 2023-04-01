@@ -6,7 +6,7 @@ import Footer from "@/components/footer";
 import Canvas from "@/components/canvas";
 import TechList from "@/components/techlist";
 import Highlight from "@/components/highlight";
-import { FaGithub, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function Home() {
@@ -70,18 +70,28 @@ export default function Home() {
               </div>
 
               <div className=" py-2 px-2 mt-2 mx-4 text-gray-300">
-                <p className=" mb-2">
-                  {" "}
-                  You can find me on{" "}
+                <p className="">You can find me on </p>
+                <p className="mt-2 flex">
                   <a
                     href="https://www.instagram.com/aloysius.gilang/"
                     className="text-cyan-100 hover:text-cyan-400"
                   >
+                    <FaInstagram className="inline-block mr-1" />
                     Instagram
                   </a>{" "}
                 </p>
+                <p className="mt-2 flex">
+                  {" "}
+                  <a
+                    href="https://www.linkedin.com/in/aloysius-gilang-pramudya-653240219"
+                    className="text-cyan-100 hover:text-cyan-400"
+                  >
+                    <FaLinkedin className="inline-block mr-1" />
+                    LinkedIn
+                  </a>
+                </p>
 
-                <p>
+                <p className="mt-4">
                   Contact me via{" "}
                   <a
                     className="text-cyan-100 hover:text-cyan-400"
