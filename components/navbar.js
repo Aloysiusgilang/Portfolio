@@ -31,7 +31,7 @@ const Navbar = () => {
                   Github
                 </Link>
                 <Link
-                  href="#"
+                  href="/works"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Works
