@@ -24,6 +24,9 @@ export default function Uses() {
     "React Native",
     "TypeScript",
     "Kotlin",
+    "PyQt5",
+    "Unity 3D",
+    "GraphQL",
   ];
 
   // sort the techList alphabetically

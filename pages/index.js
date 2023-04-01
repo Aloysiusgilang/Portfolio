@@ -54,8 +54,10 @@ export default function Home() {
                   Hi, my name is <Highlight>Gilang Pramudya</Highlight>. Im an{" "}
                   <Highlight>Informatics Student</Highlight> based in Bandung,
                   Indonesia. My primary passion lies in developing (and
-                  occasionally designing)
-                  <Highlight>web services</Highlight>, and I take great pride in
+                  occasionally designing) <Highlight>web services</Highlight>. I
+                  am also deeply interested in{" "}
+                  <Highlight>cloud engineering</Highlight> and{" "}
+                  <Highlight>cloud services</Highlight>. I take great pride in
                   crafting high-quality digital solutions that cater to my
                   clients unique requirements.
                 </p>

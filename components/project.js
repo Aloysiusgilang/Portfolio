@@ -40,7 +40,7 @@ const Project = ({ title, techList, description, githubLink }) => {
 
 const ProjectGrid = ({ projects }) => {
   return (
-    <div className="grid grid-cols-2 gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
       {projects.map((project, index) => (
         <Project
           key={index}
