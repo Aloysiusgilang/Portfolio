@@ -39,7 +39,7 @@ export default function Works() {
         <div className=" px-4 mt-8 flex flex-col justify-center items-center text-justify">
           <p className="text-white text-2xl font-semibold">
             {" "}
-            Some things i've built
+            Some things i{"`"}ve built
           </p>
           <p className=" text-md font-normal mt-2">
             Here some variety of my projects, mostly as assignment as part of my
