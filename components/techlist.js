@@ -1,16 +1,7 @@
 import React from "react";
 import cn from "classnames";
 
-const techList = [
-  "Next.js",
-  "Hygraph",
-  "Node.js",
-  "PostgreSQL",
-  "MongoDB",
-  "AWS",
-];
-
-const TechList = () => {
+const TechList = ({ techList }) => {
   return (
     <ul className="grid grid-cols-2 text-sm ">
       {techList.map((tech) => (

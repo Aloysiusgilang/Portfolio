@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+
 import { Inter, Open_Sans, Playfair_Display } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 

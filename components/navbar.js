@@ -14,14 +14,19 @@ const Navbar = () => {
         <div className="flex items-center h-16 w-full">
           <div className="flex items-center justify-between w-full ">
             <div className={playfairDisplay.className}>
-              <p className="font-bold text-xl text-cyan-100">Gilang Pramudya</p>
+              <a href="/" className="flex-shrink-0 inline-block relative">
+                <p className="font-bold text-xl text-cyan-100 transition duration-300 transform hover:-translate-y-1">
+                  Gilang Pramudya
+                </p>
+              </a>
             </div>
             <div className="hidden md:block">
               <div className="flex items-baseline space-x-4">
                 <a
-                  href="#"
+                  href="https://github.com/Aloysiusgilang"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
+                  <FaGithub className="inline-block mr-2" />
                   Github
                 </a>
                 <a
@@ -31,7 +36,7 @@ const Navbar = () => {
                   Works
                 </a>
                 <a
-                  href="#"
+                  href="/uses"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Uses
@@ -87,19 +92,20 @@ const Navbar = () => {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
-              href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              href="https://github.com/Aloysiusgilang"
+              className="text-gray-300 hover:bg-gray-700 flex items-center hover:text-white  px-3 py-2 rounded-md text-base font-medium"
             >
+              <FaGithub className="inline-block mr-2" />
               Github
             </a>
             <a
-              href="#"
+              href="/works"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Works
             </a>
             <a
-              href="#"
+              href="/uses"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Uses
