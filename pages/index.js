@@ -40,7 +40,7 @@ export default function Home() {
               <div>
                 <div className="relative mt-8 mx-4 h-48 w-48 overflow-hidden">
                   <Image
-                    src="/PP.jpeg"
+                    src="https://storage.googleapis.com/dicoding-bucket-gilang/PP.jpeg"
                     alt="Picture of the author"
                     width={500}
                     height={500}
